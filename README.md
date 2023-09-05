@@ -35,7 +35,7 @@ Bluesky: https://bsky.app/profile/potp.ro
 Connection closed by foreign host.
 ```
 
-## Runnning
+## Running
 ### Local
 ```bash
 # Ja: ポート23での起動は拒否される可能性が高いので、1023以上のポートに変更すると良いです
