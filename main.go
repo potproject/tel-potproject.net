@@ -18,6 +18,7 @@ var counter int = 0
 func main() {
 	counter = loadCounter()
 	var handler telnet.Handler = MainHandler{}
+	fmt.Println("start server")
 	go func() {
 		err := telnet.ListenAndServe(":23", handler)
 		if nil != err {
